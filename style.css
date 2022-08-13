@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: #ffff;
+    font-size: 50px;
+}
+
+#btns_nao {  
+    display: flex;
+    justify-content: center
+}
+
+#btns_nao button {
+    margin: 5px;
+    border-radius:3px;
+    font-size:18px;
+    padding: 0px;
+    cursor: not-allowed;
+}
+
+button {
+    padding: 10px;
+    font-size:25px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
