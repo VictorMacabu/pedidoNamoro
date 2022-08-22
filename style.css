@@ -8,13 +8,15 @@ body{
 
 #btns_nao {  
     display: flex;
-    justify-content: center
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
 #btns_nao button {
     margin: 5px;
     border-radius:3px;
-    font-size:18px;
+    font-size:3vh;
     padding: 0px;
     cursor: not-allowed;
 }
@@ -26,4 +28,9 @@ button {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+}
+
+h1 {
+    font-size: 70px;
+    padding: 5px;
 }
