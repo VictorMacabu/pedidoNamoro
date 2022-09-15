@@ -10,8 +10,8 @@ let btn_nao = naos_list[Math.floor(Math.random() * 30)];
 for (let i = 0; i < 30; i++) {
     if (naos_list[i] != btn_nao){
         naos_list[i].style.cssText =
-        'color: red;' +
-        'background-color: red;';
+        'color: blue;' +
+        'background-color: blue;';
     }
 }
 
@@ -34,8 +34,8 @@ function troca(){
     for (let i = 0; i < 30; i++) {
         if (naos_list[i] != btn_nao){
             naos_list[i].style.cssText =
-            'color: red;' +
-            'background-color: red;';
+            'color: blue;' +
+            'background-color: blue;';
         }    
     }
     let anterior = btn_nao;
